@@ -1,0 +1,46 @@
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <style>
+
+       .img { 
+       width:100%;
+       height: auto;
+       top:0;
+       left:0;
+       position: relative; 
+       z-index: 1;
+       } 
+
+       .anybutton {
+       top:20%;
+       left:45%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+       }
+       .anybutton2 {
+       top:30%;
+       left:45%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+       }
+
+      </style>
+   </head>
+
+     <body style="text-align:center; margin: 0px;">
+
+       <div class="mycenter" id="">
+          <img src="assets/img/background/flood2.png" class="img" id="img" />
+          <input type="button" class="anybutton" id="myab" value="Right Here" />
+          <input type="button" class="anybutton2" id="myab" value="Right Here" />
+       </div>
+       
+      </body>
+</html>
